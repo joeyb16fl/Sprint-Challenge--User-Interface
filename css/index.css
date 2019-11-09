@@ -67,7 +67,6 @@ p {
 }
 
 .container {
-    width: 800px;
     margin: 0 auto;
 }
 
@@ -78,6 +77,8 @@ p {
     margin: 20px 0px;
     border-bottom: 1px dashed black;
 }
+
+
 
 .top-content .text-container {
     width: 48%;
@@ -134,8 +135,7 @@ footer {
 footer nav {
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
     padding: 20px 2%;
     font-size: 14px;
 }
@@ -143,6 +143,7 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    padding: 0px 15px;
 }
 
 body {
@@ -153,14 +154,15 @@ body {
 nav {
 	display: flex;
 	justify-content: space-between;
-	width: 52%;
 	margin: 0 auto;
 	padding: 10px 0px;
 	align-items: center;
 }
+header nav a:link {
+    text-decoration: none;
+}
 
 .hero {
-    width: 52%;
     margin: 0 auto;
 }
 
@@ -168,6 +170,13 @@ nav {
     width: 100%;
 }
 
+header {
+    width: 52%;
+    display: flex:
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;   
+}
 
 }
 
@@ -212,3 +221,8 @@ nav {
     background-color: dodgerblue;
 } 
 
+.subMiddle {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
