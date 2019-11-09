@@ -75,7 +75,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0px;
     border-bottom: 1px dashed black;
 }
 
@@ -144,3 +144,73 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+body {
+	width: 80%;
+	margin: 0 auto;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	width: 52%;
+	margin: 0 auto;
+	padding: 10px 0px;
+	align-items: center;
+}
+
+.hero {
+    width: 52%;
+    margin: 0 auto;
+}
+
+.jumbo-img {
+    width: 100%;
+}
+
+header {
+    
+}
+
+ .box1 {
+    background-color: gold;
+    
+}
+/* 
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+} 
+ */
+
