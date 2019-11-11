@@ -78,8 +78,6 @@ p {
     border-bottom: 1px dashed black;
 }
 
-
-
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -133,9 +131,9 @@ footer {
 }
 
 footer nav {
-    width: 100%;
+    width: 60%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     padding: 20px 2%;
     font-size: 14px;
 }
@@ -143,7 +141,7 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-    padding: 0px 15px;
+    padding: 0px 10px;
 }
 
 body {
@@ -151,13 +149,37 @@ body {
 	margin: 0 auto;
 }
 
-nav {
-	display: flex;
-	justify-content: space-between;
-	margin: 0 auto;
-	padding: 10px 0px;
-	align-items: center;
+header {
+    /* width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;    */
 }
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 0px;   
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px; 
+    padding: 10px 10px 10px 0px;
+    align-items: center;
+}
+
+/* .logo {
+    align: left;
+} */
+
+nav a {
+    color: black;
+
+}
+
 header nav a:link {
     text-decoration: none;
 }
@@ -170,19 +192,8 @@ header nav a:link {
     width: 100%;
 }
 
-header {
-    width: 52%;
-    display: flex:
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;   
-}
-
-}
-
- #box1 {
+#box1 {
     background-color: teal;
-    
 }
  
 #box2 {
