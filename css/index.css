@@ -115,7 +115,13 @@ p {
     justify-content: center;
 }
 
-.bottom-content {
+.bottom-content1 {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bottom-content2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
