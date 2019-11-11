@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    padding-bottom: 10px;
 }
 
 .container {
@@ -73,8 +74,11 @@ p {
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     margin: 20px 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
     border-bottom: 1px dashed black;
 }
 
@@ -113,8 +117,12 @@ p {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 20px 0px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    
 }
 
 .bottom-content .text-container {
@@ -192,6 +200,16 @@ header nav a:link {
     width: 100%;
 }
 
+img {
+    padding: 15px 0px;
+}
+
+.box 
+
+.box p {
+    padding: 15px 0px;
+}
+
 #box1 {
     background-color: teal;
 }
@@ -236,4 +254,23 @@ header nav a:link {
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
+    padding-left: 15px;
 }
+
+button {
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: white;
+
+}
+
+.boxA {
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.boxB {
+    margin: 0px 35px; 
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
